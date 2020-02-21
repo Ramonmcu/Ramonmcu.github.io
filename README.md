@@ -1,0 +1,3 @@
+CSCI 3308 - Homework 1 - About Me Website
+
+Create a Website about you, including a small description, a photo, a link to your GitHub and your interests
