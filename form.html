@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="mypage_bootstrap.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+        <h2>Add New Interests</h2>
+        <form>
+            <div class="form-group">
+                <label for="InterestName">Interest Name</label>
+                <input type="Name" class="form-control" id="InterestName" aria-describedby="Nameinterest" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <label for="InterestDescrip">Text About Interest</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="float-left">
+            <div class="container">
+            <div class="form-row">
+                <form class="form-inline">
+                    <div class="form-group">
+                            <label for="exampleFormControlFile1">Upload Local Image</label>
+                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                    </div>
+                    <div class="form-group">
+                        <label class="mr-sm-2" for="disptweets">Select # of Tweets to Dislay</label>
+                        <select class="custom-select mr-sm-2" id="disptweets">
+                            <option selected>1</option>
+                            <option value="1">2</option>
+                            <option value="2">3</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+            </div>
+            <div class="container">
+            <label class="mr-sm-2" for="scale">On a scale from 1-5, how interested in this are you?</label>
+            <div class="form-row">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label" for="inlineCheckbox1">1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                    <label class="form-check-label" for="inlineCheckbox3">3 </label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+                    <label class="form-check-label" for="inlineCheckbox4">4 </label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
+                    <label class="form-check-label" for="inlineCheckbox5">5 </label>
+                </div>
+            </div>
+            </div>
+            <br>
+            <div class="container">
+            <label class="mr-sm-2" for="login">Login to Finish Submitting</label>
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="User Name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Password">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <button type="button" class="btn btn-md btn-dark">Submit</button>
+                </div>
+            </div>
+            </div>
+            </div>
+        </form>
+    </body>
+
+
+</html>
